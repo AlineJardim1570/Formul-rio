@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#titulo{
+    text-align: center;
+    font-family: sans-serif;
+    color: rgb(25, 112, 32);
+
+}
+#subtitulo{
+    font-family: sans-serif;
+    color: rgb(82, 155, 73);
+    margin-left: 0%;
+}
+#sub{
+    font-family: sans-serif;
+    color: rgb(82, 155, 73);
+    margin-left: 0%;
+}
+#busdois{
+    font-family: sans-serif;
+    color: rgb(82, 155, 73);
+    margin-left: 0%;
+}
+#subtres{
+    font-family: sans-serif;
+    color: rgb(82, 155, 73);
+    margin-left: 0%;
+}
+#foto{
+    margin-left: 50em;
+    border-radius: 10px; 
+    box-shadow: 5px 5px 10px rgb(153, 250, 213);
+    float: left;
+}
+fieldset{
+    border: 2;
+}
+body{
+background-color: rgb(219, 250, 201);
+font-family: sans-serif;
+font-size: 1em;
+color: black;
+margin-left: 15em;
+margin-right: 15em;
+margin-top: 2%;
+}
+input, select, textarea, button{
+    border-radius: 5px;
+}
+.campo label{
+    display: block;
+    color: rgb(0, 0, 0);
+    margin-bottom: 0,2em;
+}
+.campo input [type = "text"], .campo input [type="e-mail"] .campo textarea{
+    padding: 0,2em;
+    border: 1px solid greenyellow;
+    box-shadow: 2px 2px 2px green(0,0,0,0,2);
+    display: block;
+}
+.campo select option{
+    padding-right: 1em;
+}
+.campo input:focus, .campo select:focus, .campo textarea:focus{
+    background: rgb(73, 185, 148);
+}
+.botao{
+    font-size: 1,2em;
+    background: rgb(245, 250, 238);
+    margin-bottom: 1em;
+    border: 0;
+    color: rgb(7, 7, 7);
+    padding: 0,2em 0,6em;
+    box-shadow: 2px 2px 2px black;
+}
+.campo{
+    margin: 10px;
+    text-indent: 20px ;
+    border-radius: 10px;
+    border-color: rgb(79, 238, 105);
+}

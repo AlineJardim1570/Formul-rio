@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de cadastro</title>
+</head>
+<link rel="stylesheet" type="text/css" href="formulario CSS.css"> 
+<img src="bolas.jpg" alt id="foto"="some text" width=250 height=150>
+<div>
+    <img align="left">
+ </div>
+<body>
+    <div class="campo">
+        <br>
+        <h1 id="titulo">Cadastro geral</h1>
+        <br>
+        <p id="subtitulo">Dados pessoais:</p>
+        <br>
+    </div>
+
+    <form>
+<fieldset class="grupo">
+    <div class="campo">
+        <label for="nome">Nome completo:           </label>
+        <input type ="text" name="nome" id="nome" required>
+    </div>
+    <div class="campo">
+        <label>Profissão: </label>
+        <select id="Sua profissão"required>
+            <option>Empresário/a</option>
+            <option>Vendedor/a</option>
+            <option>Médico/a</option>
+            <option>Dentista</option>
+            <option>Recepcionista</option>
+            <option>Outro</option>
+        </select>
+        <label for="profissão">Outro. Qual? </label>
+        <input type="text" name="profissão" id="profissão">
+    </div>
+</fieldset class="grupo">
+    </form>
+    <br>
+
+    <div class="campo">
+        <p id="sub"> Localização:</p>
+        <br>
+    </div>
+    
+    <form>
+        <fieldset class="grupo">
+            <div class="campo">
+                <p>
+                <label for="e-mail">E-mail:</label>
+                <input type="email" e-mail="e-mail" id="e-mail" required>
+                </p>
+                <p>
+                <label for="rua">Rua: </label>
+                <input type="text" rua="rua" id="rua" required>
+                </p>
+            </div>
+        </fieldset>
+        <br>
+        <p id subdois>Faixa etária:</p>
+        <br>
+        <fieldset class="grupo">
+            <div class="campo">
+                <p>
+                    <label>
+                        <input type="radio" name="Até 20 anos" value="idade"> Até 20 anos
+                    </label>
+                    <br>
+                    <label>
+                        <input type="radio" name="Mais de 20 até 30 anos" value="idade"> Mais de 20 até 30 anos
+                    </label>
+                    <br>
+                    <label>
+                        <input type="radio" name="Mais de 30 até 40 anos" value="idade"> Mais de 30 até 40 anos
+                    </label>
+                    <br>
+                    <label>
+                        <input type="radio" name="Mais de 40 até 50 anos" value="idade"> Mais de 40 até 50 anos
+                    </label>
+                    <br>
+                    <label>
+                        <input type="radio" name="Mais de 50 até 60 anos" value="idade"> Mais de 50 até 60 anos
+                    </label>
+                    <br>
+                    <label >
+                        <input type="radio" name="Mais de 60 anos" value="idade"> Mais de 60 anos
+                    </label>
+                </p>
+            </div>
+        </fieldset>
+        <br>
+        <p id subtres>Esportes que pratica:</p>
+        <br>
+        <fieldset class="grupo">
+            <div class="campo">
+                <p>
+                    <label>
+                        <input type="checkbox" name="Futebol de campo" id="esportes"> Futebol de campo
+                    </label>
+                    <br>
+                    <label>
+                        <input type="checkbox" name="Futebol de salão" id="esportes"> Futebol de salão
+                    </label>
+                    <br>
+                    <label>
+                        <input type="checkbox" name="Futebol society" id="esportes"> Futebol society
+                    </label>
+                    <br>
+                    <label>
+                        <input type="checkbox" name="Volei de quadra" id="esportes"> Volei de quadra
+                    </label>
+                    <br>
+                    <label>
+                        <input type="checkbox" name="Volei de praia" id="esportes"> Volei de praia
+                    </label>
+                    <br>
+                    <label>
+                        <input type="checkbox" name="Natação em piscina" id="esportes"> Natação em piscina
+                    </label>
+                    <br>
+                    <label>
+                        <input type="checkbox" name="Natação em mar aberto" id="esportes"> Natação em mar aberto
+                    </label>
+                </p>
+            </div>
+        </fieldset>
+        <div class="campo">
+            <br>
+            <p id subquatro>Comentários:</p>
+            <br>
+            <fieldset class="grupo">
+                <textarea rows="10" style="width: 26;" id="mensagem"></textarea>
+            </fieldset>
+            <br>
+            <br>
+            <button type="submit" class="botao">Enviar</button>
+            <button type="reset" class="botao">Limpar</button>
+        </div>
+    </form>
+</body>
+</html>
